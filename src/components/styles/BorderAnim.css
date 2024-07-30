@@ -1,0 +1,244 @@
+.get_started_boxed {
+    position: relative;
+    z-index: 0;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.get_started_boxed::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%100%, 50%50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#070707, #687aff);
+    animation: bgRotate 4s linear infinite;
+}
+
+.get_started_boxed::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    top: 1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: linear-gradient(#06021d, #06021d);
+    border-radius: 12px;
+}
+
+.image_genarate_textarea {
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.image_genarate_textarea::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%100%, 50%50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#070707, #68faff);
+    animation: bgRotate 4s linear infinite;
+}
+
+.image_genarate_textarea::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    top: 1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: linear-gradient(#06021d, #06021d);
+    border-radius: 12px;
+}
+
+
+.image_img_border_area {
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.image_img_border_area::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%100%, 50%50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#070707, #ff6895);
+    animation: bgRotate 4s linear infinite;
+}
+
+.image_img_border_area::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    top: 1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: linear-gradient(#06021d, #06021d);
+    border-radius: 12px;
+}
+
+@keyframes bgRotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.vaildator_details_boxed {
+    position: relative;
+    z-index: 0;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.vaildator_details_boxed::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%100%, 50%50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#e600ff, #fff);
+    animation: bgRotate 4s linear infinite;
+}
+
+.vaildator_details_boxed::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    top: 1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: linear-gradient(#06021d, #06021d);
+    border-radius: 12px;
+}
+
+@keyframes bgRotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+.CircleAnimEnable {
+    position: relative;
+    z-index: 0;
+    border-radius: 9999px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.CircleAnimEnable::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: 100%100%, 50%50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#e600ff, #132aaa, #000000);
+    animation: bgRotate 2s linear infinite;
+}
+
+.CircleAnimEnable::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+    top: 30px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: linear-gradient(#06021d, #06021d);
+    border-radius: 9999px;
+}
+
+@keyframes bgRotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+.CircleAnimDisable {
+    position: relative;
+    z-index: 0;
+    border-radius: 9999px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.CircleAnimDisable::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: 100%100%, 50%50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#0fb6cc, #68a81480, #0db373);
+    animation: bgRotate 2s linear infinite;
+}
+
+.CircleAnimDisable::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    top: -30px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: linear-gradient(#ff0095, rgba(212, 13, 46, 0.753));
+    border-radius: 9999px;
+}
+
+@keyframes bgRotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
