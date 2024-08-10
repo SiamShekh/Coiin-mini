@@ -22,7 +22,7 @@ const VaildateModals = () => {
                         {
                             vaildate ?
                                 <div>
-                                    <p className="text-white text-opacity-70">{"You are currently a Rainmaker validator. To leave the Rainmaker validator program, click 'Un-validate'."}</p>
+                                    <p className="text-white text-opacity-70">{"You are currently a Raiinmaker validator. To leave the Raiinmaker validator program, click 'Un-validate'."}</p>
                                     <div className="w-40 h-40 relative rounded-full  CircleAnimDisable mx-auto mt-5" onClick={() => setVaildate(!vaildate)}>
                                         <p className="text-xl absolute bottom-[50%] left-[5%] font-mono text-white " >De-Vaildate</p>
                                     </div>

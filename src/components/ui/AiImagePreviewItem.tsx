@@ -63,19 +63,19 @@ const AiImagePreviewItem = ({ items }: any) => {
                     <p className="text-white text-xl font-bold">Share the content!</p>
                     <div className="flex justify-around items-center gap-3 mt-3">
                         <>
-                            <TelegramShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Rainmaker.\n 🔗 ${uploadedImageUrl}`}>
+                            <TelegramShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Raiinmaker.\n 🔗 ${uploadedImageUrl}`}>
                                 <TelegramIcon className="rounded-full size-10" />
                             </TelegramShareButton>
 
-                            <WhatsappShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Rainmaker.\n 🔗 ${uploadedImageUrl}`}>
+                            <WhatsappShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Raiinmaker.\n 🔗 ${uploadedImageUrl}`}>
                                 <WhatsappIcon className="rounded-full size-10" />
                             </WhatsappShareButton>
 
-                            <TwitterShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Rainmaker.\n 🔗 ${uploadedImageUrl}`}>
+                            <TwitterShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Raiinmaker.\n 🔗 ${uploadedImageUrl}`}>
                                 <TwitterIcon className="rounded-full size-10" />
                             </TwitterShareButton>
 
-                            <FacebookShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Rainmaker.\n 🔗 ${uploadedImageUrl}`}>
+                            <FacebookShareButton className={`${loading ? 'hidden' : 'block'}`} url={`😇 Here is my latest AI-generated image powered by Raiinmaker.\n 🔗 ${uploadedImageUrl}`}>
                                 <FacebookIcon className="rounded-full size-10" />
                             </FacebookShareButton>
                         </>
