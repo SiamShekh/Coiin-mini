@@ -29,7 +29,7 @@ const VaildateModals = () => {
                                 </div>
                                 :
                                 <div>
-                                    <p className="text-white text-opacity-70">You are currently not a validator. To become a validator, click 'Un-validate' to unregister your validation.</p>
+                                    <p className="text-white text-opacity-70">You are currently not a validator. To become a validator, click 'validate' to register your validation.</p>
                                     {/* IF ENABLE THEN 'CircleAnimEnable' AND IF DISABLE 'CircleAnimDisable' */}
                                     <div className="w-40 h-40 relative rounded-full  CircleAnimEnable mx-auto mt-5" onClick={() => setVaildate(!vaildate)}>
                                         <p className="text-xl absolute top-[50%] right-[5%] font-mono text-white ">Vaildate</p>
